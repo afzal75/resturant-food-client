@@ -18,12 +18,12 @@ const NavBar = () => {
           </svg>
         </a>
         <ul className="p-2">
-          <li>
+          {/* <li>
             <a>Submenu 1</a>
           </li>
           <li>
             <a>Submenu 2</a>
-          </li>
+          </li> */}
         </ul>
       </li>
       <li>
@@ -34,7 +34,7 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="navbar fixed z-10 bg-opacity-30 max-w-screen-xl bg-black text-white">
+      <div className="navbar fixed z-10 bg-opacity-30 max-w-screen-xl text-white">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
